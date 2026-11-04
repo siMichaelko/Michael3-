@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fdfdfd;
+    text-align: justify; 
+}
+
+header {
+    background-color: #000065; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+nav {
+    background-color: #fbe5d6; 
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #333;
+    font-size: 0.85rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0000bc;
+    color: #ffffff;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 40px 0;
+}
+
+article h2 {
+    color: #0000bc;
+    border-bottom: 2px solid #0000bc;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+article h3 {
+    color: #111;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 0.95rem;
+}
+
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 170px;
+    object-fit: cover;
+    border: 5px solid #ccc;
+}
+
+.profile-details h2 {
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+
+.profile-details p {
+    margin-bottom: 6px;
+}
+
+.columns-two {
+    display: flex;
+    gap: 40px;
+}
+
+.column {
+    flex: 1;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+}
+
+.favorite-item {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+.fav-media {
+    flex: 0 0 150px; 
+}
+
+.fav-media img {
+    width: 100%;
+    height: 100x;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    display: block;
+}
+
+.fav-info {
+    flex: 1;
+}
+
+.fav-info h3 {
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 15px 0;
+    margin-top: 60px;
+    border-top: 1px solid #ddd;
+    font-size: 0.85rem;
+    color: #9f9f9f;
+}
